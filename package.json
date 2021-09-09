@@ -5,8 +5,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
-    "start":"node app.js"
+    "test": "jest --watchAll",
+    "test --bin": "node --experimental-vm-modules node_modules/.bin/jest",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,6 @@
   "homepage": "https://github.com/PunyaweeW/somchaiyz#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "jess": "^1.0.8-alpha.8"
+    "jest": "^27.1.1"
   }
 }
