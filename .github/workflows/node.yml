@@ -5,6 +5,9 @@ name: Node CI
 
 on:
   push:
+    paths:
+      - 'backend/**'
+      - '.github/workflows/node.js.yaml'
     branches: [ main ]
   pull_request:
     branches: [ main ]
