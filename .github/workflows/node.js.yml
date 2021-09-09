@@ -4,6 +4,8 @@
 name: Somchaiyz Node JS
 
 on:
+  paths:
+      - 'backend/**'
   push:
     branches: [ main ]
   pull_request:
